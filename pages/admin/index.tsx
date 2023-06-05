@@ -48,7 +48,7 @@ const DashboardPage = () => {
     >
       <Grid container spacing={2}>
         <SummaryTile
-          title={data.numberOfOrders}
+          title={data.numberOfOrders || ""}
           subTitle="Ordenes totales"
           icon={<CreditCardOutlined color="secondary" sx={{ fontSize: 40 }} />}
         />
