@@ -1,11 +1,12 @@
 {
   "private": true,
   "scripts": {
+    "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "engines": {
-    "node": "15.2.1"
+    "node": "v16.8.0"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
